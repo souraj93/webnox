@@ -9,7 +9,7 @@
   <meta name='robots' content='max-image-preview:large' />
   <link rel='dns-prefetch' href='//fonts.googleapis.com' />
   <script type="text/javascript"> /* <![CDATA[ */
-    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo.bravisthemes.com\/digicove\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1" } };
+    window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "..\/js\/emoji.js" } };
     /*! This file is auto-generated */
     !function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
     /* ]]> */</script>
@@ -552,34 +552,29 @@
     type='text/css' media='all' />
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    src="../js/jquery.js"
     id="jquery-core-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    src="../js/jquery-migrate.js"
     id="jquery-migrate-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.3.1"
+    src="../js/block-ui.js"
     id="jquery-blockui-js" data-wp-strategy="defer"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.3.1"
+    src="../js/js-cookie.js"
     id="js-cookie-js" data-wp-strategy="defer"></script>
   <script type="text/javascript" id="woocommerce-js-extra"> /* <![CDATA[ */
     var woocommerce_params = { "ajax_url": "\/digicove\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/digicove\/?wc-ajax=%%endpoint%%" };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.3.1"
+    src="../js/woocommerce.js"
     id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
   <link rel="https://api.w.org/" href="https://demo.bravisthemes.com/digicove/wp-json/" />
   <link rel="EditURI" type="application/rsd+xml" title="RSD"
     href="https://demo.bravisthemes.com/digicove/xmlrpc.php?rsd" />
   <meta name="generator" content="WordPress 6.4.1" />
   <meta name="generator" content="WooCommerce 8.3.1" />
-  <link rel="canonical" href="https://demo.bravisthemes.com/digicove/service/search-engine-optimization-seo/" />
-  <link rel='shortlink' href='https://demo.bravisthemes.com/digicove/?p=908' />
-  <link rel="alternate" type="application/json+oembed"
-    href="https://demo.bravisthemes.com/digicove/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.bravisthemes.com%2Fdigicove%2Fservice%2Fsearch-engine-optimization-seo%2F" />
-  <link rel="alternate" type="text/xml+oembed"
-    href="https://demo.bravisthemes.com/digicove/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.bravisthemes.com%2Fdigicove%2Fservice%2Fsearch-engine-optimization-seo%2F&#038;format=xml" />
+
   <meta name="generator" content="Redux 4.4.10" />
   <link rel="icon" type="image/png" href="../images/favicon.ico" />
   <noscript>
@@ -1570,142 +1565,142 @@
     href='https://demo.bravisthemes.com/digicove/wp-content/uploads/elementor/css/post-10945.css?ver=1702029908'
     type='text/css' media='all' />
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/swv.min.js?ver=5.8.4"
+    src="../js/swv.js"
     id="swv-js"></script>
   <script type="text/javascript" id="contact-form-7-js-extra"> /* <![CDATA[ */
     var wpcf7 = { "api": { "root": "https:\/\/demo.bravisthemes.com\/digicove\/wp-json\/", "namespace": "contact-form-7\/v1" } };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/contact-form-7.min.js?ver=5.8.4"
+    src="../js/contact-form.js"
     id="contact-form-7-js"></script>
   <script type="text/javascript" id="wc-add-to-cart-js-extra"> /* <![CDATA[ */
     var wc_add_to_cart_params = { "ajax_url": "\/digicove\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/digicove\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/demo.bravisthemes.com\/digicove\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.3.1"
+    src="../js/add-to-cart.js"
     id="wc-add-to-cart-js" data-wp-strategy="defer"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/elements/widgets/js/gsap.min.js?ver=3.11.4"
+    src="../js/gsap.js"
     id="pxl-gsap-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-scroll-trigger.min.js?ver=3.12.2"
+    src="../js/pxl-scroll.js"
     id="pxl-scroll-trigger-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-SplitText.min.js?ver=3.6.1"
+    src="../js/pxl-splittext.js"
     id="pxl-SplitText-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/digicove-typewrite.min.js?ver=1.0.2"
+    src="../js/typewrite.js"
     id="digicove-typewrite-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-parallax-background.min.js?ver=1.0.2"
+    src="../js/parallax-background.js"
     id="pxl-parallax-background-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-parallax-scroll.min.js?ver=1.0.2"
+    src="../js/parallax-scroll.js"
     id="pxl-parallax-scroll-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/digicove-elementor.min.js?ver=1.0.2"
+    src="../js/elementor.js"
     id="digicove-elementor-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/digicove-swiper-slider.min.js?ver=1.0.2"
+    src="../js/swiper-slider.js"
     id="digicove-swiper-slider-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/Snap.svg.min.js?ver=0.4.1"
+    src="../js/snap-svg.js"
     id="Snap.svg-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-elementor-edit.min.js?ver=1.0.2"
+    src="../js/pxl-elementor-edit.js"
     id="pxl-elementor-edit-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-elementor.min.js?ver=1.0.2"
+    src="../js/pxl-elementor.js"
     id="pxl-elementor-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/print.min.js?ver=6.1.6"
+    src="../js/print.js"
     id="print-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/table-head-fixer.min.js?ver=6.1.6"
+    src="../js/table-head-fixer.js"
     id="table-head-fixer-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/woo-smart-compare/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=6.1.6"
+    src="../js/perfect-scrollbar.js"
     id="perfect-scrollbar-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2"
+    src="../js/core.js"
     id="jquery-ui-core-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2"
+    src="../js/mouse.js"
     id="jquery-ui-mouse-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.2"
+    src="../js/sortable.js"
     id="jquery-ui-sortable-js"></script>
   <script type="text/javascript" id="woosc-frontend-js-extra"> /* <![CDATA[ */
-    var woosc_vars = { "ajax_url": "https:\/\/demo.bravisthemes.com\/digicove\/wp-admin\/admin-ajax.php", "nonce": "eb4487d24d", "hash": "6", "user_id": "0cdb64fab32a05bd393b20c8c351de9f", "page_url": "" onclick="event.preventDefault()", "open_button": "", "hide_empty_row": "yes", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "no", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the comparison table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare", "button_normal_icon": "woosc-icon-1", "button_added_icon": "woosc-icon-74" };
+    var woosc_vars = { "ajax_url": "https:\/\/demo.bravisthemes.com\/digicove\/wp-admin\/admin-ajax.php", "nonce": "eb4487d24d", "hash": "6", "user_id": "0cdb64fab32a05bd393b20c8c351de9f", "page_url": "", "open_button": "", "hide_empty_row": "yes", "open_button_action": "open_popup", "menu_action": "open_popup", "button_action": "show_table", "sidebar_position": "right", "message_position": "right-top", "message_added": "{name} has been added to Compare list.", "message_removed": "{name} has been removed from the Compare list.", "message_exists": "{name} is already in the Compare list.", "open_bar": "no", "bar_bubble": "no", "adding": "prepend", "click_again": "no", "hide_empty": "no", "click_outside": "yes", "freeze_column": "yes", "freeze_row": "yes", "scrollbar": "yes", "limit": "100", "remove_all": "Do you want to remove all products from the compare?", "limit_notice": "You can add a maximum of {limit} products to the comparison table.", "copied_text": "Share link %s was copied to clipboard!", "button_text": "Compare", "button_text_added": "Compare", "button_normal_icon": "woosc-icon-1", "button_added_icon": "woosc-icon-74" };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/woosc-frontend.min.js?ver=6.1.6"
+    src="../js/woosc-frontend.js"
     id="woosc-frontend-js"></script>
   <script type="text/javascript" id="woosw-frontend-js-extra"> /* <![CDATA[ */
     var woosw_vars = { "ajax_url": "https:\/\/demo.bravisthemes.com\/digicove\/wp-admin\/admin-ajax.php", "nonce": "82ff31899e", "menu_action": "open_page", "perfect_scrollbar": "yes", "wishlist_url": "https:\/\/demo.bravisthemes.com\/digicove\/wishlist\/", "button_action": "list", "message_position": "right-top", "button_action_added": "popup", "empty_confirm": "This action cannot be undone. Are you sure?", "delete_confirm": "This action cannot be undone. Are you sure?", "copied_text": "Copied the wishlist link:", "menu_text": "Wishlist", "button_text": "Add to wishlist", "button_text_added": "Browse wishlist", "button_normal_icon": "woosw-icon-5", "button_added_icon": "woosw-icon-8", "button_loading_icon": "woosw-icon-4" };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/woosw-frontend.min.js?ver=4.7.9"
+    src="../js/woosw-frontend.js"
     id="woosw-frontend-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/assets/js/libs/magnific-popup.min.js?ver=1.1.0"
+    src="../js/magnific-popup.js"
     id="magnific-popup-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/nice-select.min.js?ver=1.0.0"
+    src="../js/nice-select.js"
     id="nice-select-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/assets/js/libs/wow.min.js?ver=1.0.0"
+    src="../js/wow.js"
     id="wow-animate-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/assets/js/libs/curtains.umd.min.js?ver=1.0.0"
+    src="../js/curtains-umd.js"
     id="curtains-lib-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2"
+    src="../js/slider.js"
     id="jquery-ui-slider-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/digicove-cursor.min.js?ver=1.0.2"
+    src="../js/cursor.js"
     id="digicove-cursor-js"></script>
   <script type="text/javascript" id="pxl-main-js-extra"> /* <![CDATA[ */
     var main_data = { "ajax_url": "https:\/\/demo.bravisthemes.com\/digicove\/wp-admin\/admin-ajax.php" };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-main.min.js?ver=1.0.2"
+    src="../js/pxl-main.js"
     id="pxl-main-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/pxl-woocommerce.min.js?ver=1.0.2"
+    src="../js/pxl-woocommerce.js"
     id="pxl-woocommerce-js"></script>
   <script type="text/javascript" id="wooaa-frontend-js-extra"> /* <![CDATA[ */
     var wooaa_vars = { "ajax_url": "https:\/\/demo.bravisthemes.com\/digicove\/wp-admin\/admin-ajax.php", "nonce": "296ab143b0", "product_types": "all", "wc_ajax_url": "\/digicove\/?wc-ajax=%%endpoint%%", "cart_url": "https:\/\/demo.bravisthemes.com\/digicove\/cart\/", "cart_redirect_after_add": "no" };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/uploads/siteground-optimizer-assets/wooaa-frontend.min.js?ver=1.6.5"
+    src="../js/wooaa-frontend.js"
     id="wooaa-frontend-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/assets/js/libs/tilt.min.js?ver=1.0.0"
+    src="../js/tilt.js"
     id="tilt-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/elements/widgets/js/particle.js?ver=1.0.2"
+    src="../js/particle.js"
     id="digicove-particle-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/themes/digicove/elements/widgets/js/parallax.js?ver=1.0.2"
+    src="../js/parallax.js"
     id="digicove-parallax-js"></script>
   <script type="text/javascript" defer
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.10"
+    src="../js/forms.js"
     id="mc4wp-forms-api-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.1"
+    src="../js/webpack-runtime.js"
     id="elementor-webpack-runtime-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.1"
+    src="../js/frontend-modules.js"
     id="elementor-frontend-modules-js"></script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    src="../js/waypoints.js"
     id="elementor-waypoints-js"></script>
   <script type="text/javascript" id="elementor-frontend-js-before"> /* <![CDATA[ */
     var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": true }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": true }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.18.1", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "e_swiper_latest": true, "block_editor_assets_optimize": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true }, "urls": { "assets": "https:\/\/demo.bravisthemes.com\/digicove\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet", "viewport_tablet_extra", "viewport_laptop"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 48, "title": "Search%20Engine%20Optimization%20%28SEO%29%20%E2%80%93%20Digicove", "excerpt": "", "featuredImage": false } };
     /* ]]> */</script>
   <script type="text/javascript"
-    src="https://demo.bravisthemes.com/digicove/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.1"
+    src="../js/frontend.js"
     id="elementor-frontend-js"></script>
   <script id="vs" type="x-shader/x-vertex"> #ifdef GL_ES
    precision mediump float;
