@@ -1,0 +1,357 @@
+@font-face {
+    font-family: flaticon;
+    src: url(../fonts/flaticon.eot);
+    src: url(../fonts/flaticon.eot?#iefix)format("embedded-opentype"),url(../fonts/flaticon.woff2)format("woff2"),url(../fonts/flaticon.woff)format("woff"),url(../fonts/flaticon.ttf)format("truetype"),url(../fonts/flaticon.svg#flaticon)format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family:flaticon;
+        src: url(../fonts/flaticon.svg#Flaticon)format("svg")
+    }
+}
+
+[class^=flaticon-]:before,[class*=" flaticon-"]:before,[class^=flaticon-]:after,[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400
+}
+
+.flaticon-shop-bag:before {
+    content: "\f101"
+}
+
+.flaticon-search:before {
+    content: "\f102"
+}
+
+.flaticon-right-chevron:before {
+    content: "\f103"
+}
+
+.flaticon-trophy:before {
+    content: "\f104"
+}
+
+.flaticon-right-arrow:before {
+    content: "\f105"
+}
+
+.flaticon-reset:before {
+    content: "\f106"
+}
+
+.flaticon-check:before {
+    content: "\f107"
+}
+
+.flaticon-messenger:before {
+    content: "\f108"
+}
+
+.flaticon-list:before {
+    content: "\f109"
+}
+
+.flaticon-map:before {
+    content: "\f10a"
+}
+
+.flaticon-chat:before {
+    content: "\f10b"
+}
+
+.flaticon-crown:before {
+    content: "\f10c"
+}
+
+.flaticon-crown-1:before {
+    content: "\f10d"
+}
+
+.flaticon-star:before {
+    content: "\f10e"
+}
+
+.flaticon-cloud-storage:before {
+    content: "\f10f"
+}
+
+.flaticon-complete:before {
+    content: "\f110"
+}
+
+.flaticon-good-review:before {
+    content: "\f111"
+}
+
+.flaticon-badge:before {
+    content: "\f112"
+}
+
+.flaticon-medal:before {
+    content: "\f113"
+}
+
+.flaticon-medal-1:before {
+    content: "\f114"
+}
+
+.flaticon-right-arrow-1:before {
+    content: "\f115"
+}
+
+.flaticon-right-arrow-2:before {
+    content: "\f116"
+}
+
+.flaticon-ux:before {
+    content: "\f117"
+}
+
+.flaticon-web-development:before {
+    content: "\f118"
+}
+
+.flaticon-customer-service:before {
+    content: "\f119"
+}
+
+.flaticon-trophy-1:before {
+    content: "\f11a"
+}
+
+.flaticon-house:before {
+    content: "\f11b"
+}
+
+.flaticon-quotation-mark:before {
+    content: "\f11c"
+}
+
+.flaticon-link:before {
+    content: "\f11d"
+}
+
+.flaticon-location:before {
+    content: "\f11e"
+}
+
+.flaticon-medicine:before {
+    content: "\f11f"
+}
+
+.flaticon-checked:before {
+    content: "\f120"
+}
+
+.flaticon-play:before {
+    content: "\f121"
+}
+
+.flaticon-shopping-bag:before {
+    content: "\f122"
+}
+
+.flaticon-sketch:before {
+    content: "\f123"
+}
+
+.flaticon-ethereum:before {
+    content: "\f124"
+}
+
+.flaticon-check-1:before {
+    content: "\f125"
+}
+
+.flaticon-support:before {
+    content: "\f126"
+}
+
+.flaticon-heart:before {
+    content: "\f127"
+}
+
+.flaticon-deal:before {
+    content: "\f128"
+}
+
+.flaticon-pricing:before {
+    content: "\f129"
+}
+
+.flaticon-customer-service-1:before {
+    content: "\f12a"
+}
+
+.flaticon-star-1:before {
+    content: "\f12b"
+}
+
+.flaticon-ai:before {
+    content: "\f12c"
+}
+
+.flaticon-email:before {
+    content: "\f12d"
+}
+
+.flaticon-discount:before {
+    content: "\f12e"
+}
+
+.flaticon-home:before {
+    content: "\f12f"
+}
+
+.flaticon-social-care:before {
+    content: "\f130"
+}
+
+.flaticon-user:before {
+    content: "\f131"
+}
+
+.flaticon-tools:before {
+    content: "\f132"
+}
+
+.flaticon-project-management:before {
+    content: "\f133"
+}
+
+.flaticon-field:before {
+    content: "\f134"
+}
+
+.flaticon-satisfaction:before {
+    content: "\f135"
+}
+
+.flaticon-email-1:before {
+    content: "\f136"
+}
+
+.flaticon-shopping-cart:before {
+    content: "\f137"
+}
+
+.flaticon-fast-delivery:before {
+    content: "\f138"
+}
+
+.flaticon-shop:before {
+    content: "\f139"
+}
+
+.flaticon-solved:before {
+    content: "\f13a"
+}
+
+.flaticon-team:before {
+    content: "\f13b"
+}
+
+.flaticon-check-mark:before {
+    content: "\f13c"
+}
+
+.flaticon-modern-house:before {
+    content: "\f13d"
+}
+
+.flaticon-badge-1:before {
+    content: "\f13e"
+}
+
+.flaticon-talking:before {
+    content: "\f13f"
+}
+
+.flaticon-profit:before {
+    content: "\f140"
+}
+
+.flaticon-liquid-soap:before {
+    content: "\f141"
+}
+
+.flaticon-farming:before {
+    content: "\f142"
+}
+
+.flaticon-phone-call:before {
+    content: "\f143"
+}
+
+.flaticon-telephone-call:before {
+    content: "\f144"
+}
+
+.flaticon-next:before {
+    content: "\f145"
+}
+
+.flaticon-arrow-right:before {
+    content: "\f146"
+}
+
+.flaticon-rating:before {
+    content: "\f147"
+}
+
+.flaticon-police-badge:before {
+    content: "\f148"
+}
+
+.flaticon-sadness:before {
+    content: "\f149"
+}
+
+.flaticon-bitcoin:before {
+    content: "\f14a"
+}
+
+.flaticon-adoption:before {
+    content: "\f14b"
+}
+
+.flaticon-instruction:before {
+    content: "\f14c"
+}
+
+.flaticon-valid:before {
+    content: "\f14d"
+}
+
+.flaticon-planting:before {
+    content: "\f14e"
+}
+
+.flaticon-cryptocurrency:before {
+    content: "\f14f"
+}
+
+.flaticon-app-development:before {
+    content: "\f150"
+}
+
+.flaticon-app-development-1:before {
+    content: "\f151"
+}
+
+.flaticon-self-employed:before {
+    content: "\f152"
+}
+
+.flaticon-agreement:before {
+    content: "\f153"
+}
+
+.flaticon-skin-care:before {
+    content: "\f154"
+}
